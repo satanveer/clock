@@ -1,0 +1,76 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #374b50;
+    color: grey;
+}
+header{
+    margin-top: 1rem;  
+}
+header h1{
+    margin-left: 1rem;
+}
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+#new-input-submit{
+    color: rgb(215, 27, 27);
+    margin-right: 1rem;
+    background-color: #EADBC8;
+    border-radius: 1rem;
+    margin-left: 10rem;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+#new-input-submit:hover{
+    opacity: 0.8;
+}
+#new-input-submit:active{
+    opacity: 0.6;
+}
+#new-input-text{
+    color: gray;
+    background-color: #EADBC8;
+    border-radius: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+#new-task-form{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+
+section h1{
+    margin-top: 5rem;
+    color: grey;
+    margin-left: 1rem;
+}
+#tasknum1{
+    margin-left: 1rem;
+    background-color: #EADBC8;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem ;
+}
+section button{
+    color: red;
+    background-color: #EADBC8;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 85px;
+}
+
+
